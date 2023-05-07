@@ -1,0 +1,13 @@
+.imagen {
+    color:white;
+    font-size: 104px; 
+    text-align: center;
+  
+    color: #FFFFFF; 
+    border: none; 
+
+}
+
+.imagen img {
+    margin: 16px; 
+  }

@@ -1,0 +1,12 @@
+.bodyPersonajes1 {
+    /*background-image: url('https://images6.alphacoders.com/607/thumbbig-607713.webp'); */
+    background-size: cover;
+    background-position: center center;
+     background-color: black;
+   
+    
+  }.titulo{
+    color:white;
+    font-size:70px;
+    font-family: "Raleway";
+  }

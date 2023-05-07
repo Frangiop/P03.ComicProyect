@@ -1,0 +1,52 @@
+.container{
+    color:white;
+   
+}
+
+.container-second {
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    margin: 150px; /* ajusta el margen del contenedor según tus necesidades */
+    color:white,
+}
+
+
+.eliminar-btn {
+    display: flex; 
+    align-items: center; 
+    background-color: rgb(223, 219, 231); /* Cambia el color de fondo del elemento */
+    margin-left: 70px; /* Ajusta el margen del elemento según tus necesidades */
+    padding: 08px 10px;
+    border: none;
+    cursor: pointer; /* Cambia el cursor a una mano para indicar que es un botón interactivo */
+    font-size: 16px;
+    transition: background-color 0.3s ease; /*agrego una transición suave al cambiar el color de fondo */
+}
+
+.eliminar-btn:hover {
+    background-color: rgb(255, 0, 0); /* Cambia el color de fondo del botón a rojo cuando se hace hover */
+    /* Puedes personalizar otros estilos del botón al hacer hover según tus necesidades */
+  }
+
+ 
+  
+  .imagen img {
+    width: 250px; /* Establece el ancho deseado para las imágenes */
+    height: 250px; /* Establece la altura deseada para las imágenes */
+    object-fit: cover; /* por fin !!!!! este el qu eajusta!!  la imagen al tamaño del contenedor manteniendo su proporción */
+    border: 2px solid white; 
+    border-radius: 8px; 
+  }
+
+
+  .container-año{
+    font-size: 24px;
+    color:red ;
+
+  }
+
+  .container-manga{
+    font-size:30px;
+    font-family: 'Pacifico' ;
+  }

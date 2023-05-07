@@ -1,0 +1,42 @@
+
+.mundos-container {
+  display: grid;
+  gap: 15px;
+ 
+}
+
+.mundos{
+
+  transition: transform 0.3s ease-in-out; /* para el efecto de agrnadar palabra,dutación 3 segundos y efecto acelarecaion y desacelearción en ATRANSFORM abajo  */
+  cursor: pointer; /* aca le meto cursos interactivo lo que indica posibble el click */
+  background-color: #0e0625;
+  width: 650px; /* Establece el ancho del div a 200 pixels */
+  height: 70px; /* Establece la altura del div a 150 pixels */
+  margin: 0 auto; /* Centra el div horizontalmente */
+  padding: 0; /* Quita los bordes internos (padding) */
+
+}
+
+
+
+.mundos:hover {  /* bueno esto es cucando el cursor esta encima se aplica tood lo que este en elementos de mundo */
+    transform: scale(1.1); /*este es la escala efecto de  agrandamiento en hover */
+    color: rgb(255, 72, 72);
+  }
+  
+  
+  
+  .link{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 50px;
+    color: rgba(233, 225, 255, 0.7); /* Color de fuente azul chillón con opacidad */
+    opacity: 0.6;
+    font-family:sans-serif;
+    cursor: pointer;
+  }
+
+
+  
+  
+  

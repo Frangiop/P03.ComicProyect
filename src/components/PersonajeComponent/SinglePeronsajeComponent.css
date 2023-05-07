@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  
+  .left-section {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .middle-section {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .right-section {
+    flex-basis: 30%;
+  }
+  
+
+.letra-titulo{
+font-family: Roboto Condensed;
+}
+
+.descripcion1-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+
+  .div-altura{
+    max-height: 250px;
+    max-width: 1150px;
+  }
+
+     .scrollbar-container {
+      height: 110px;
+    }
+
+
+    body{
+        background-color: black;
+    }
+
+
+    .manga{
+      font-size: 6.8em;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(255, 0, 0, 0.5); /* Color rojo con 50% de opacidad */
+    }

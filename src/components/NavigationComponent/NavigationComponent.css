@@ -1,0 +1,59 @@
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .home-link {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    background-color: transparent;
+    margin-right:40px;
+  }
+
+
+  .nav-link.back-to-top-button {
+    float: right;
+}
+
+  
+
+.vovler-link {
+  position: fixed;
+  top: 0;
+  right: 40px;
+  background-color: transparent;
+  margin-right:40px;
+}
+
+
+.home-icon {
+  color:white;
+  font-size: 40px;
+  margin:10px;
+}
+
+
+ 
+  .volver-button{
+    border: 1px solid #ff4040; /* Estilo de borde */
+    padding: 5px; /* Espaciado interno del botón */
+    
+  }

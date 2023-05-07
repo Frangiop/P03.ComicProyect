@@ -1,0 +1,19 @@
+.button {
+    background-color: rgb(24, 0, 70); 
+    color: white; 
+  
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; /*C``d */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+    font-size:25px;
+  border:solid blue;
+  border-radius: 5px;
+  text-decoration: none;
+ 
+}
+  
+  .button:hover {
+    background-color: rgb(222, 238, 76); /* Cambiar el color de fondo a rojo al hacer hover en el botón */
+    /* Puedes personalizar otros estilos del botón al hacer hover según tus necesidades */
+  }

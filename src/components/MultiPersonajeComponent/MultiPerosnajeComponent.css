@@ -1,0 +1,199 @@
+
+.personajes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+   
+  }
+  
+  .personaje-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    
+  
+   
+  }
+  
+  .personaje-card img {
+    width: 150px;  
+    height: 250px;  
+    object-fit: cover;
+    border: 4px solid rgb(255, 0, 0);
+     margin: 10px;
+  
+  }
+  
+  .personaje-card h2 {
+    text-align: center;
+    margin-top: 10px;
+  
+  }
+  
+  
+  
+  .personaje-nombre{
+      text-decoration: none; 
+      font-family: "Comic Sans MS", cursive, sans-serif bold;
+      color: rgb(204, 255, 202);
+      font-size: 0.7em;
+  }
+  
+
+
+
+ 
+  
+  .div-altura1{
+    max-height: 250px;
+    max-width: 250px;
+  }
+  .scrollbar-container1 {
+    height: 100px;
+  }
+
+
+  .busqueda-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+/* */ 
+  /* .busqueda-container { */ 
+   /* display: flex; */ 
+   /* justify-content: center; */ 
+  /*  align-items: center; */ 
+  /*  margin-bottom: 20px; /* para dar espacio entre el buscador y las imágenes */ */ 
+  /*}  */ 
+   
+  
+  .reset-button {
+    margin-top: 10px; /* Agrega margen superior para separar el botón del campo de búsqueda */
+  }
+  
+  
+  
+  /* Estils paa el campo de buusqueda */
+  .input-busqueda {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #999292;
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 10px;
+    border-color:red;
+  }
+
+  .boton-buscar {
+    padding: 10px;
+    background-color: #ceb9b9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+  }
+  
+  
+  .boton-buscar:hover {
+    background-color: fuchsia;
+    color: #fff;
+  }
+
+
+
+
+  /* Loading  */
+
+ .lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

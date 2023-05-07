@@ -1,0 +1,48 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.login-form label {
+  margin-bottom: 8px;
+  color: #ffffff; /* Cambia el color de la etiqueta a blanco */
+  font-size: 30px;
+}
+
+.login-form input {
+  margin-bottom: 16px;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ff00ff; /* Cambia el color del borde a fucsia (#ff00ff) */
+  outline: none; /* Elimina el contorno predeterminado del input */
+  background-color: #000000; /* Cambia el color de fondo del input a negro */
+  color: #ffffff; /* Cambia el color del texto del input a blanco */
+  
+}
+
+.login-form input:focus {
+  border: 2px solid #ff00ff; /* Cambia el color del borde al recibir el foco */
+  box-shadow: 0 0 5px #ff00ff; /* Agrega una sombra brillante al recibir el foco */
+  font-size: 20px;
+}
+
+.login-form button1 {
+  padding: 12px;
+  font-size: 20px;
+  background-color: #ff00ff; /* Cambia el color de fondo del botón a fucsia (#ff00ff) */
+  color: #ffffff; /* Cambia el color del texto del botón a blanco */
+  cursor: pointer;
+  border: none; /* Elimina el borde del botón */
+  
+}
+
+.login-form button1:hover {
+  background-color: #ff99ff; /* Cambia el color de fondo del botón al pasar el cursor por encima */
+}
+
+.imagen1{
+  
+  margin-top: 70px;
+}
